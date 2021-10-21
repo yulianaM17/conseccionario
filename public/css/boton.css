@@ -1,0 +1,190 @@
+.btnn{
+    display:block;
+    width:50px;
+    height:20px;
+    outline:none;
+    border:1px solid rgb(0, 121, 235);
+    background-color: #fafafa;
+    border radius: 10px;
+    color:(0, 121, 235);
+    cursor:pointer;
+    margin: 100px auto;
+    transition: all .25s;
+    z-index:1;
+    position:relative;
+    text-transform:uppercase;
+    top:-1683px;
+    left:1150px;
+}
+.btnn::before{
+    content: '';
+    position:absolute;
+    width:100%;
+    height:0;
+    left:0;
+    bottom:0;
+    border-radius:2px;
+    background-image: linear-gradient(to right,
+    rgb(23, 228, 243), rgb(0, 141, 235) );
+    transition: all .25s;
+    z-index:-1;
+}
+.btnn:hover{
+    border:1px solid transparent;
+    color: #fff;
+}
+.btnn:hover:before{
+    height:100%;
+}
+.btnnn{
+    display:block;
+    width:50px;
+    height:20px;
+    outline:none;
+    border:1px solid rgb(0, 121, 235);
+    background-color: #fafafa;
+    border radius: 10px;
+    color:(0, 121, 235);
+    cursor:pointer;
+    margin: 100px auto;
+    transition: all .25s;
+    z-index:1;
+    position:relative;
+    text-transform:uppercase;
+    top:-1623px;
+    left:1100px;
+}
+.btnnn::before{
+    content: '';
+    position:absolute;
+    width:100%;
+    height:0;
+    left:0;
+    bottom:0;
+    border-radius:2px;
+    background-image: linear-gradient(to right,
+    rgb(23, 228, 243), rgb(0, 141, 235) );
+    transition: all .25s;
+    z-index:-1;
+}
+.btnnn:hover{
+    border:1px solid transparent;
+    color: #fff;
+}
+.btnnn:hover:before{
+    height:100%;
+}
+.btnnnn{
+    display:block;
+    width:50px;
+    height:20px;
+    outline:none;
+    border:1px solid rgb(0, 121, 235);
+    background-color: #fafafa;
+    border radius: 10px;
+    color:(0, 121, 235);
+    cursor:pointer;
+    margin: 100px auto;
+    transition: all .25s;
+    z-index:1;
+    position:relative;
+    text-transform:uppercase;
+    top:-1653px;
+    left:1045px;
+}
+.btnnnn::before{
+    content: '';
+    position:absolute;
+    width:100%;
+    height:0;
+    left:0;
+    bottom:0;
+    border-radius:2px;
+    background-image: linear-gradient(to right,
+    rgb(23, 228, 243), rgb(0, 141, 235) );
+    transition: all .25s;
+    z-index:-1;
+}
+.btnnnn:hover{
+    border:1px solid transparent;
+    color: #fff;
+}
+.btnnnn:hover:before{
+    height:100%;
+}
+.btnnnnn{
+    display:block;
+    width:50px;
+    height:20px;
+    outline:none;
+    border:1px solid rgb(0, 121, 235);
+    background-color: #fafafa;
+    border radius: 10px;
+    color:(0, 121, 235);
+    cursor:pointer;
+    margin: 100px auto;
+    transition: all .25s;
+    z-index:1;
+    position:relative;
+    text-transform:uppercase;
+    top:-1595px;
+    left:995px;
+}
+.btnnnnn::before{
+    content: '';
+    position:absolute;
+    width:100%;
+    height:0;
+    left:0;
+    bottom:0;
+    border-radius:2px;
+    background-image: linear-gradient(to right,
+    rgb(23, 228, 243), rgb(0, 141, 235) );
+    transition: all .25s;
+    z-index:-1;
+}
+.btnnnnn:hover{
+    border:1px solid transparent;
+    color: #fff;
+}
+.btnnnnn:hover:before{
+    height:100%;
+}
+.btnnnnnn{
+    display:block;
+    width:50px;
+    height:20px;
+    outline:none;
+    border:1px solid rgb(0, 121, 235);
+    background-color: #fafafa;
+    border radius: 10px;
+    color:(0, 121, 235);
+    cursor:pointer;
+    margin: 100px auto;
+    transition: all .25s;
+    z-index:1;
+    position:relative;
+    text-transform:uppercase;
+    top:-1565px;
+    left:942px;
+}
+.btnnnnnn::before{
+    content: '';
+    position:absolute;
+    width:100%;
+    height:0;
+    left:0;
+    bottom:0;
+    border-radius:2px;
+    background-image: linear-gradient(to right,
+    rgb(23, 228, 243), rgb(0, 141, 235) );
+    transition: all .25s;
+    z-index:-1;
+}
+.btnnnnnn:hover{
+    border:1px solid transparent;
+    color: #fff;
+}
+.btnnnnnn:hover:before{
+    height:100%;
+}

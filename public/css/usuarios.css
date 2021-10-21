@@ -1,0 +1,118 @@
+
+    .form-action { 
+        position: relative;
+        height: 65%;
+        width: 60px;
+        left: 60px;
+        right:100px;
+        background: black; 
+        padding: 20px;
+        margin: auto;
+        margin-top: center;
+        border-radius: 20px;
+        font-family: 'snap ITC';
+        color: black;
+        box-shadow: 0px 0px 100px rgb(0,0,0);
+        border: 1px solid black;
+
+       }
+       .form-registerr .form-controls {
+           
+        
+        background: rgb(0,0,0);
+        padding: 6px;
+        
+        border-radius: 600px;
+        margin-bottom: 7px;
+        border: 2px solid black;
+        font-family: 'algerian';
+        font-size: 10px;
+        color: black;
+        text-align:center;
+        margin-top: 100px;
+       }
+       #tabla{
+           margin-top:100px;
+        left:250px;
+        top:160%;
+        width: 1%;
+        position:absolute;
+        border:4px;
+        border: 4px solid black;
+        font-size: 16px;
+        color:black;
+    }
+   
+     
+       .form-registerr a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: 'snap ITC';
+        margin-top:100px 
+        
+        
+       }
+       .botons{
+        left:10px;
+        margin-left: 580px;
+        background-color: #83acf1;
+    }
+       .controls {
+      
+        height: 10px;
+        width: 5%;
+        border-radius:35px;
+        background-color: rgba(0, 0, 0, 0.1);
+        width: 10%;
+        left: -100px;
+        background: rgba(0, 0, 0, 0.456);
+        padding: 10px;
+        margin-bottom: 16px;
+        border: 2px solid black;
+        font-family: 'snap ITC';
+        margin-left:550px;
+      
+    }
+    .btnact{
+        left:-200px;
+       
+        background-color: #83acf1;
+    }
+    .btnelit{
+      left:10px;
+     
+      background-color: #83acf1;
+  }
+    .botonss{
+      
+        background-color: #83acf1;
+        
+    }
+    .form-registerr{
+      margin-top:10px;
+      margin-left:-10%
+    }
+    .heading{
+      text-align: center;
+      margin-bottom: 2rem;
+      position: relative;
+  }
+  
+  .heading::before{
+      content: '';
+      position: absolute;
+      top:50%; left:0;
+      transform: translateY(-50%);
+      width: 100%;
+      height:.01rem;
+      background: rgba(0,0,0,.1);
+      z-index: -1;
+  }
+  
+  .heading span{
+      font-size: 3rem;
+      padding:.5rem 2rem;
+      color:var(--black);
+      background: #fff;
+      border:var(--border);
+  }

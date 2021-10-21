@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <link rel="icon" href="./public/APP_PROYECTO_FINAL/img/LOGO_APP.png" type="LOGO_APP.png" > -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+   
+    <link rel="stylesheet" href="/css/botonn.css">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/cc.css">
+    <link rel="stylesheet" href="/css/primeraparte.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+    <title> CREDITOS </title>
+
+<body><header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-car"></i>CONCESSIONAIRE </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="/consultar" class="fas fa-user"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+   
+
+</header>
+ 
+    <header>
+      
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+<thead>
+   
+     
+    
+<div id="titulo">
+    <section class="form-register">
+        <form action="" none="frm" id="frm">
+<table id="tabla" >	
+        <tr>
+        <td> MODELO </td>
+        
+        <td> MARCA  </td>
+       
+        <td> COLOR </td>
+        
+        <td> ESTADO </td>
+        <td> PRECIO</td>
+        
+        <td> NUMERO </td>
+
+        <% datos.forEach(function(datos) { %>
+
+            <tr></tr>
+            <td><input   type="text"  value="<%=datos.modelot%>"         id="docli"       class="docli"  ></td>
+            <td><input   type="text"  value="<%=datos.marcat%>"         id="nommclii"       class="nommclii"  ></td>
+            <td><input   type="text"  value="<%=datos.colort%>"         id="vee"       class="vee"  ></td>
+            <td><input   type="text"  value="<%=datos.estadot%>"          id="rll"       class="rll"  ></td>
+            <td><input   type="text"  value="<%=datos.preciot%>"          id="rll"       class="rll"  ></td>
+            <td><input   type="text"  value="<%=datos.numerot%>"          id="rll"       class="rll"  ></td>
+      	
+
+            
+            
+            
+            
+            <%})%> 
+            </tbody>
+
+</table>
+</section>
+
+</head>
+</form>  
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"> <span>CONCESSIONAIRE</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+           
+            <a href="/todos" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/chevrolet-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Chevrolet</h3>
+                    <div class="price">$25.000.000 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="/todos" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/camioneta-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Ford Ecosport</h3>
+                    <div class="price">$35.000.000 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="/todos" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/camioneta-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Suzuki Vitara</h3>
+                    <div class="price">$35.000.000 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="/todos" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/camioneta-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Nissan Kicks</h3>
+                    <div class="price">$15.000.000 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="/todos" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/camioneta-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Kia Sportage</h3>
+                    <div class="price">23.000.000 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="/cuentasconsultar" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/per-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="/cuentasconsultar" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/per-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>new arrivals</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            
+            
+                   
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</body>
+</html>

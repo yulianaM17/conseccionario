@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <link rel="icon" href="./public/APP_PROYECTO_FINAL/img/LOGO_APP.png" type="LOGO_APP.png" > -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    
+    <link rel="stylesheet" href="/css/botonn.css">
+    <link rel="stylesheet" href="/css/estilosss.css">
+    <link rel="stylesheet" href="/css/preccc.css">
+    <link rel="stylesheet" href="/css/primeraparte.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+    <title> CREDITOS </title>
+
+<body><header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-car"></i>CONCESSIONAIRE </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+    <header>
+      
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+
+</section>
+<section class="form-registerr">
+
+      <a></a>
+      <form action="/frminsertar " method="POST">
+
+          <div><input  id=""   type="text" required   name="codigocredito"  class="controls" placeholder="ID"></div>
+
+          <div><input  id=""   type="text" required   name="doccli"  class="controls" placeholder="PRECIO MIN"></div>
+          <div><input  id=""   type="text" required   name="codlinea"  class="controls" placeholder="PRECIO MAX"></div>
+         
+          <td><input  type="submit"  value="INGRESAR" name="btnact" id="btnact"   class="botons" class="controls"     ></td>
+</form>
+</section>
+  <thead> 
+  <div id="titulo">
+      <section class="form-register">
+          <form action="" none="frm" id="frm">
+  <table id="tabla" >	
+          <tr>
+
+          <td>   </td>
+ 
+         
+          <td> ESTADO</td>
+          <td> CATEGORIA</td>
+     
+  
+<tbody>
+  <% datos.forEach(function(datos) { %>
+
+<tr></tr>
+
+  <td><input   type="text"  value="<%=datos.codigocredito%>"    name="nomusu "    id="usu"       class="usu"  ></td>
+ 
+  <td><input   type="text"  value="<%=datos.doccli%>"      name="estado"    id="est"       class="est"  ></td>
+  <td><input   type="text"  value="<%=datos.codlinea%>"      name="imagen"    id="img"       class="img"  ></td>
+  
+
+
+
+ 
+<%})%> 
+</tbody>
+
+</table>
+</section>
+
+</head>

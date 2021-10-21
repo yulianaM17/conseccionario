@@ -1,0 +1,135 @@
+nav {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #fff;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    z-index : 2;
+}
+
+nav .logo {
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    position:relative;
+    z-index : 2;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position:relative;
+    z-index : 2;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    z-index : 2;
+}
+
+nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+    position:relative;
+    z-index : 2;
+}
+
+.contenedor{
+    margin-top: 100px;
+    margin-left: 500px;
+}
+.container{
+    float:center;
+    width:350px;
+    margin: 10% auto;
+    border-radius:35px;
+    background-color: rgba(53, 11, 11, 0.1);
+    box-shadow: 0 0 15px #333;
+    position:relative;
+    z-index : 2;
+    margin-top:100px;
+}
+.header{
+    text-align: center;
+    padding-top:75px;
+
+}
+.header h1{
+    color:#333;
+    font-size: 45px;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+    text-align:center;
+}
+.main input, button{
+    width:300px;
+    height: 40px;
+    border:none;
+    outline:none;
+    padding-left:40px;
+    box-sizing:border-box;
+    font-size:  15px;
+    color:#333;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.main span{
+    position:relative;
+}
+.main button{
+    padding-left:0;
+    background-color: #83acf1;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main button:hover{
+    box-shadow: 2px 2px 5px #555;
+    background-color: #7799d4;
+}
+.main input:hover{
+    box-shadow: 2px 2px 5px #555;
+    background-color: #ddd;
+}
+.main i{
+    position:absolute;
+    left:15px;
+    color:#333;
+    font-size: 16px;
+    top:2px
+}
+
+
+video{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
